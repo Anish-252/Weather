@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.searchbar{
+    border-radius: 18px;
+    background: #7c7c7c2b;
+    padding: 7px;
+    padding-left: 15px;
+}
+
+.searchbttn{
+    color: white;
+    background: #7c7c7c2b;
+    border-radius: 15px;
+    padding: 9px;
+}
+
+.searchbttn:hover{
+    color:black;
+    background: gray
+}
+
+.description{
+    text-transform: capitalize;
+}
+
+.weather.loading{
+    visibility: hidden;
+}
+
+.weather.loading:after{
+    visibility: visible;
+    content: "loading...";
+    color: white;
+}
